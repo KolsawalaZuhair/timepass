@@ -1,1 +1,1 @@
-# timepass
+print("HELLO OJ")
