@@ -4,3 +4,6 @@ responsive Site designing:
 3. Flexbox
 4. grid
 5. BootStrap**** (BC boht saara kaam bachta. i dont wanna write css. i dont like it)
+6. sass (Scss) lets us use variables in css and reduces redundancy. It also gives us better syntax for nesting elements
+    that are to be styled. scss files need to compiled into css files before they can be used. it can be done through
+    the commandline application of sass on our pc.
