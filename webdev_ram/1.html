@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Im a niggerlet</title>
+        <style>
+            body {
+                background-color: rgb(114, 25, 197);
+                color: rgb(206, 16, 16);
+            }
+            h1,p{
+                color: rgb(180, 34, 238);
+                text-align: center;
+                font-family: 'Edu NSW ACT hand', cursive;
+
+            }
+            #foo { /*This is how you reference to A PARTICULAR element using id. id is unique and no other element can have same id.
+                      To apply styles to different elements of same or different types of elements, we can use class. */
+                color: red;
+                text-align: center;
+                font-family: 'Edu NSW ACT hand', cursive;
+            }
+            .classname { /*This is how you reference to a class. Multiple elements can have same class. */
+                color: gold;
+                text-align: center;
+                font-family: "deja vu sans mono", monospace;
+            }
+            ol > li{
+                color: rgb(207, 34, 153); /*here we reference to all the direct children(li) of parent ol */
+                font-family: "deja vu sans mono", monospace;
+            }
+            img[src="nig1.jpg"] { /*This is how we reference to general grp of elements that have a particular attribute*/
+                border: 10px solid black;
+                border-radius: 10px;
+                padding: 8px;
+                margin-top: 10px;
+               
+            }
+            #images { /*This is how we reference to all the direct children of a particular element with id images */
+                display: flex;
+                flex-wrap: wrap;
+            }
+            button {
+                background-color: rgb(3, 144, 252);
+                color: white;
+                font-size: larger;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 100px;
+                border-radius : 50px;
+                height: 200px; 
+            }
+            button:hover{
+                background-color: rgb(25, 196, 136);
+                color: rgb(255, 255, 255);
+                font-size: larger;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 100px;
+                height: 200px;
+                border-radius: 50px;
+            }
+            </style>
+            <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <h1 align="centre">Sup Fam!!</h1>
+        <h2 align="center" id="foo" class="classname">I am a niggerlet</h2> <!-- here the style from its id is applied due to the order of specificity: inline > id > class > general -->
+        <div align="center" class="tobestyled"><ol type="I"><!-- iski styling styles.css me hai -->
+            <li class="classname">Phle to aapki mkc</li>
+            <li class="classname">Fir aapke pitashrii ki bhi</li> 
+            <ol type="a">
+                <li>Aur aakhir me aapke mama ki</li>
+                <li>Aaur aap ke jiju ki bhi</li>
+            </ol>
+            <li class="classname"><a href="2.html">Tatti khaa le bhai</a></li><!-- agar yaha class nahi hota to ye bhi upar wale li jaise formatted hota cause ye bhi child hai ol ka (line27)-->
+            <li class="classname"><a href="3.html">Chal ye form bhar</a></li> 
+        </ol>
+    <p>Dont Believe them at No cost!!!!</p>
+    </div>
+    <div id="images">
+        <div><img src="nig1.jpg" alt="nig1" width="500" height="600"></div>
+        <div><img src="nig2.jpg" alt="nig2" width="500   " height="600"></div>             
+        <div><button onclick="alert('Le re Lund KE!!')" align="center">Click me</button></div>
+        <div><img src="nig3.jpg" alt="nig3" width="500" height="600"></div>
+        
+    </div>
+        
+    </body>
+</html>
