@@ -1,6 +1,0 @@
-responsive Site designing:
-1. Media Query
-2. meta tags for responsive design
-3. Flexbox
-4. grid
-5. BootStrap**** (BC boht saara kaam bachta. i dont wanna write css. i dont like it)
