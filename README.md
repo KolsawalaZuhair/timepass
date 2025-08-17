@@ -3,7 +3,7 @@
 Alright, Everyone has already made their own branches (except aniruddh) and have also practised pushing pulling and other basic things. I think that everyone's now comfortable with working with git. 
 So now what we(Whoever's Interested) will be doing is we take Zuhair's webpage and add things to it. make it better by addiing our contributions.
 
-#here are the rules that we all follow :
+# here are the rules that we all follow :
 1. First pull the main branch into ur own branch and then start working on it. 
     DO NOT MAKE CHANGES directly to main branch.
 2. keep fetching/pulling from main branch regularly to keep your branch upto date.
